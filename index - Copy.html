@@ -15,12 +15,12 @@
 
 		  gtag('config', 'UA-107957553-2');
 		</script>
-		<title>About Me</title>
+
+		<title>Nicholas Young, University of Michigan Postdoc</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/academicons.min.css"/>
-		
+		<link rel="stylesheet" href="assets/css/academicons.min.css"/> <!--Loads academic icons-->
 		<!--Favicon code-->
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -28,9 +28,17 @@
 		<link rel="manifest" href="/site.webmanifest">
 	</head>
 	<body class="is-preload">
-		<!-- Header -->
+	<!-- Header -->
 			<header id="header">
-				<div class="outer">
+			<script
+				src="https://code.jquery.com/jquery-3.3.1.js">
+			</script>
+			<script> 
+			$(function(){
+			  $("#header").load("header.html"); 
+			});
+			</script> 
+				<!--<div class="outer">
 					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
 				</div>
 				<div class="inner">
@@ -39,7 +47,7 @@
 					<a href="research.html"><h1>Researcher<br /></h1></a>
 					<a href="writing.html"><h1>Writer<br /></h1></a>
 					<a href="science-communication.html"><h1>Science Communicator<br /></h1></a>
-				</div>
+				</div>-->
 			</header>
 			<script>
 			  function openNav() {
@@ -68,26 +76,52 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>About Me</h2>
+							<h2>Hello, I'm Nick!</h2>
 						</header>
-						<p>I am an education data science postdoc at the <a href="https://ai.umich.edu/" target="_blank">Center for Academic Innovation at the University of Michigan</a>. I was previously a physics and computational mathematics, science, and engineering graduate student at Michigan State University. My disseration research used machine learning to analyze applications to physics graduate programs. I was advised by <a href="http://dannycaballero.info/" target="_blank">Dr. Danny Caballero</a>.</p>
+						<p>I am an education data science postdoctoral researcher at the Center for Academic Innovation at the University of Michigan. I earned my PhD in physics education research & computational mathematics science and engineering at Michigan State University. My dissertation was on the graduate admissions process in physics.</p>
 						
-						<p>I earned my bachelor's degree in physics and astonomy/astrophysics at (The) Ohio State University. I also minored in mathematics and cognitive science. While at Ohio State, I worked with Dr. Andrew Heckler on projects related to oscillatory motion. I was also a tutor in the Mathematics and Statistics Learning Center, focusing mainly on calculus.</p>
-						
-						<p>Outside of my research, I am interested in science communication and teaching. Doing science communication work was never part of "my plan." However, after learning about Astrobites and wishing there was (and then
-						creating) a physics education research version (PERbites), I have become very interested in science communication. Outside of PERbites, I have served as the vice president of marketing and science writing chair for MSU's 
-						science communication organization (<a href="https://www.msuscicomm.org" target="_blank">MSU SciComm</a>) and was a <a href="https://www.aaas.org/programs/mass-media-fellowship/nick-young" target="_blank">AAAS 2021 Mass Media Fellow with The Wichita Eagle</a>.</p>
-						
-						<p>As a graduate student, I have been a teaching assistant for Lyman Briggs 273 and 274 (physics 1 and physics in Lyman Briggs College at MSU). These are studio physics courses for mainly life science majors
-						In a studio class, lecture, lab, and recitation are combined into a single session. This means that class would begin with a short lecture, then students would investigate some concept using lab equipment,
-						and then complete more typical recitation style problems based on their findings in a single period. As these courses were for life science majors, many of the problems were focused on life science concepts.
-						For example, diffusion can be modeled as a conservation of momentum and collisions problem. </p>
-						
-						<p>I've previously been a graduate fellow with the <a href="https://hub.msu.edu/" target="_blank">Hub for Innovation in Learning and Technology at MSU</a> working on the <a href="https://hub.msu.edu/project/spartan-studios/" target="_blank">Spartan Studios</a> project. I've also previously designed an introduction to machine learning workshop for 
-						undergraduate astronomy researchers through the Institute for Scientist & Engineer Educator's <a href="https://isee.ucsc.edu/programs/pdp/" target="_blank"> Professional Development Program</a>.</p>
-						
+						<ul class="actions">
+							<li><a href="research.html" class="button">Learn more about my work</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="about.html" class="button">Learn more about me</a></li>
+						</ul>
+						<br />
+						<br />
+
 					</section>
 					
+					<section id="recent">
+						<h2>Recent Research</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://doi.org/10.1103/PhysRevPhysEducRes.17.010144" class="image fit thumb" target="_blank"><img src="images/poster_thumbs/standout_prper.png" alt="" /></a>
+								<h3>Physics Graduate Record Exam does not help applicants “stand out”</h3>
+								<p>Published in Physical Review Physics Education Research, 2021</p>
+							</article>	
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://arxiv.org/abs/2103.14513" class="image fit thumb" target="_blank"><img src="images/poster_thumbs/sim_study_cover.png" alt="" /></a>
+								<h3>Predictive and explanatory models might miss informative features in educational data</h3>
+								<p>Under review, pre-print version</p>
+							</article>								
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/posters/Young_2021_XDBER_poster.pdf" class="image fit thumb"><img src="images/poster_thumbs/Young_XDBER_21.png" alt="" /></a>
+								<h3>Developing a Faculty-Facing Resource for Experiential, Interdisciplinary, Undergraduate Teaching</h3>
+								<p>Presented at the X-DBER Virtual Conference 2021</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/posters/Young_2021_wAAPT_poster.pdf" class="image fit thumb"><img src="images/poster_thumbs/Young_wAAPT_21.png" alt="" /></a>
+								<h3>Addressing Rare Outcomes in PER Quantitative Studies</h3>
+								<p>Presented at the American Association of Physics Teachers Winter Meeting 2021</p>
+							</article>
+				
+						</div>
+
+						<ul class="actions">
+							<li><a href="cv.html" class="button">More Posters, Talks, and Papers (Full CV)</a></li>
+						</ul>
+					</section>
+
 
 				<!-- Three -->
 					<!--<section id="three">
@@ -454,7 +488,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="mailto:ntyoung@umich.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="http://www.twitter.com/nickyoungper" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="http://www.linkedin.com/in/nicholas-young-per" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://scholar.google.com/citations?user=h90_jd4AAAAJ" class="ai ai-google-scholar ai-2x"><span class="label"></span></a></li>						
+						<li><a href="https://scholar.google.com/citations?user=h90_jd4AAAAJ" class="ai ai-google-scholar ai-2x"><span class="label"></span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Nick Young</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
@@ -469,7 +503,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/menu.js"></script>
 			<!-- Open and close the menu-->
 
 			 <!--Use ESC to close menu -->
