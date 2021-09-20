@@ -38,16 +38,6 @@
 			  $("#header").load("header.html"); 
 			});
 			</script> 
-				<!--<div class="outer">
-					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-				</div>
-				<div class="inner">
-					<a href="index.html" class="image avatar"><img src="images/headshot_2021.jpg" alt="" /></a>
-					<a href="about.html"><h1><strong>Nicholas T. Young</strong><br /></h1></a>	
-					<a href="research.html"><h1>Researcher<br /></h1></a>
-					<a href="writing.html"><h1>Writer<br /></h1></a>
-					<a href="science-communication.html"><h1>Science Communicator<br /></h1></a>
-				</div>-->
 			</header>
 			<script>
 			  function openNav() {
@@ -59,17 +49,11 @@
 			  }
 			 </script>
 			<!-- Scroll across menu options-->
-			<div id="myNav" class="overlay">
-			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			  <div class="overlay-content">
-						  <a href="index.html">Home</a>
-						  <a href="about.html">About</a>
-						  <a href="research.html">Research</a>
-						  <a href="writing.html">Writing</a>
-						  <a href="cv.html">CV</a>
-						  <a href="science-communication.html">Science Communication</a>
-			  </div>
-			</div>
+			<script> 
+			$(function(){
+			  $("#header").load("menu.html"); 
+			});
+			</script> 
 		<!-- Main -->
 			<div id="main">
 
