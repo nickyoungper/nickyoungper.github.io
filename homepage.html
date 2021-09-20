@@ -27,18 +27,16 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 	</head>
-	<body class="is-preload">
-	<!-- Header -->
-			<header id="header">
-			<script
-				src="https://code.jquery.com/jquery-3.3.1.js">
-			</script>
+	
+			<!-- Headers, footers, menus -->
+			<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 			<script> 
 			$(function(){
 			  $("#header").load("header.html"); 
+			  $("#footer").load("footer.html"); 
+			  $("#menu_loc").load("mymenu.html"); 
 			});
 			</script> 
-			</header>
 			
 			<!-- Scroll across menu options-->
 			<script>
@@ -50,11 +48,14 @@
 				document.getElementById("myNav").style.width = "0%";
 			  }
 			 </script>
-			<script> 
-			$(function(){
-			  $("#menu_loc").load("mymenu.html"); 
-			});
-			</script> 
+			 
+	<body class="is-preload">
+	<!-- Header -->
+			<header id="header">
+			</header>
+			
+
+
 			<div id="menu_loc"></div>
 			
 		<!-- Main -->
@@ -63,7 +64,7 @@
 				<!-- One -->
 					<section id="one">
 						<header class="major">
-							<h2>Hello, I'm Nick 8!</h2>
+							<h2>Hello, I'm Nick 10!</h2>
 						</header>
 						<p>I am an education data science postdoctoral researcher at the Center for Academic Innovation at the University of Michigan. I earned my PhD in physics education research & computational mathematics science and engineering at Michigan State University. My dissertation was on the graduate admissions process in physics.</p>
 						
@@ -470,14 +471,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 			<footer id="footer">
-			<script
-				src="https://code.jquery.com/jquery-3.3.1.js">
-			</script>
-			<script> 
-			$(function(){
-			  $("#footer").load("footer.html"); 
-			});
-			</script> 
 			</footer>
 
 		<!-- Scripts -->
