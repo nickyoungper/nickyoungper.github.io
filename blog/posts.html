@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107957553-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-107957553-2');
+		</script>
+
+		<title>Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/academicons.min.css"/>
+		<!--Favicon code-->
+		<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+		<link rel="manifest" href="../site.webmanifest">
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+		<!-- Headers, footers, menus -->
+			<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+			<script> 
+			$(function(){
+			  $("#header").load("header.html"); 
+			  $("#footer").load("footer.html"); 
+			  $("#menu_loc").load("mymenu.html"); 
+			});
+			</script> 
+			
+			<!-- Scroll across menu options-->
+			<script>
+			  function openNav() {
+				document.getElementById("myNav").style.width = "100%";
+			  }
+
+			  function closeNav() {
+				document.getElementById("myNav").style.width = "0%";
+			  }
+			 </script>
+			 
+			 <header id="header"></header>
+			<div id="menu_loc"></div>
+
+		<!-- Main -->
+			<div id="main">
+
+			<h1>Blog Posts</p>
+					<section>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="10_13_21_AAAS_Mass_Media_Application_Tips.html" class="image fit thumb"><img src="../images/blog/aaas.jpeg" alt="" /></a>
+								<h3>So, you want to be a AAAS Mass Media Fellow</h3>
+								<p>October 13th, 2021</p>
+						
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<!-- Open and close the menu-->
+
+			 <!--Use ESC to close menu -->
+			 <script>
+				$(document).keyup(function(e) {
+					 if (e.keyCode == 27) { // escape key maps to keycode `27`
+					   document.getElementById("myNav").style.width = "0%";
+					}
+				});
+			 </script>
+
+	</body>
+</html>
